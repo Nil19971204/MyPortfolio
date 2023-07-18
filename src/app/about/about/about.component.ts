@@ -16,6 +16,7 @@ export class AboutComponent implements OnInit {
     const pdfUrl = 'assets/2019 1040-SR Tax Return -  Elbert D and Lona K Vines.pdf';
     const pdfName = 'resume';
     FileSaver.saveAs(pdfUrl, pdfName);
+    console.log("Downloaded file");
   }
 
 }

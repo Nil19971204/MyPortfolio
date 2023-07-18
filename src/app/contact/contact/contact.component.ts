@@ -25,6 +25,7 @@ export class ContactComponent implements OnInit {
     // });
     this.service.get_data(this.data).subscribe((res)=>{
       console.log(res);
+      console.log("Downloaded file");
     });
     
   }
