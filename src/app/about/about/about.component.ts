@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
     const pdfName = 'resume';
     FileSaver.saveAs(pdfUrl, pdfName);
     console.log("Downloaded file");
-    console.log("git push");
+    console.log("git push 1");
   }
 
 }
